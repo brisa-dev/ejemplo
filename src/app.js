@@ -13,7 +13,7 @@ app.use(express.urlencoded({extended:true}))
 //configuraciones
 app.set('port', config.app.port)
 
-//rutas
+//rutas 
 app.use('/api/cliente', clientes)
 app.use('/api/usuario', usuarios)
 app.use(error);
